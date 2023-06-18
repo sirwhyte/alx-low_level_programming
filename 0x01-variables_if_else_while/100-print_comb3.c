@@ -17,7 +17,9 @@ int main(void)
 			if (!(i > j) || i == j)
 			{
 				putchar(i);
+				i++;
 				putchar(j);
+				j++;
 				if (i == '8' && j == '9')
 				{
 					putchar('\n');
