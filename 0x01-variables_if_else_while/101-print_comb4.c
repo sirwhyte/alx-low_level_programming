@@ -40,6 +40,6 @@ int main(void)
 		num2 = '0';
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
