@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 /**
  * main - omo i am late
  *
@@ -20,7 +20,7 @@ int main(void)
 			num3 = '0';
 			while (num3 <= '9')
 			{
-				if (num1 < num2 $$ num2 < num3)
+				if (num1 < num2 && num2 < num3)
 				{
 					putchar(num1);
 					putchar(num2);
