@@ -4,6 +4,7 @@
  * description: i play the alphabet game.
  * Return: Always 0 (Success)
  */
+Description: i play the alphabet game
 void print_alphabet(void)
 {
 	char ch;
