@@ -5,9 +5,9 @@
  * print_alphabet - prints lower case alphabet
  * Return: Always 0 (Success)
  */
-print_alphabets of lowercase
 void print_alphabet(void)
 {
+	print_alphabet(lowercase);
 	char ch;
 
 	for (ch = 'a'; ch <= 'z';)
