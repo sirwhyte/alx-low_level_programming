@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main -  I sometimes suffer from insomnia
  * description: i play the alphabet game.
