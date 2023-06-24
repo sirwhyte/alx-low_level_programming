@@ -1,20 +1,21 @@
 #include "main.h"
 /**
- * main -  I sometimes suffer from insomnia
+ * print_alphabet_x10 -  I sometimes suffer from insomnia
  * Description: i play the alphabet game
  * print_alphabet - prints lower case alphabet
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet(loweircase);
 	char ch;
-	
-	for (ch = 'a'; ch <= 'z';)
-	
+	int i;
+
+	for  (i = 0; i < 10; i++)
 	{
-		_putchar(ch);
-		ch++;
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
