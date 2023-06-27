@@ -10,12 +10,12 @@
 void reset_to_98(int *n)
 {
 	int n = 78;
-	int *n = &n;
+	int *ptr_n = &n;
 
 	{
 		printf("the value of n before dereferencing is:  %d\n", n);
 		
-		*n = 98;
+		*ptr_n = 98;
 		
 		printf("the value of n after dereferencing is: %d\n", n);
 	}
