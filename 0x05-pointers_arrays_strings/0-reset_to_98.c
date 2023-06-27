@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int num = 78;
-	int *ptr_num = &num;
+	int n = 78;
+	int *ptr_n = &n;
 
 	{
-		printf("the value of num before dereferencing is:  %d\n", num);
+		printf("the value of n before dereferencing is:  %d\n", n);
 		
-		*ptr_num = 98;
+		*ptr_n = 98;
 		
-		printf("the value of num after dereferencing is: %d\n", num);
+		printf("the value of n after dereferencing is: %d\n", n);
 	}
 
 	return (0);
