@@ -5,7 +5,7 @@
  * _strlen - string what ever
  * Description: this defends the file from being read
  * @s: string length
- * Return: Always 0 ( Success)
+ * Return: length
  */
 int _strlen(char *s)
 {
@@ -17,5 +17,5 @@ int _strlen(char *s)
 		len++;
 		s++;
 	}
-	return (0);
+	return (len);
 }
