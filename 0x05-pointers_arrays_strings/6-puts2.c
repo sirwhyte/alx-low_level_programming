@@ -5,13 +5,6 @@
  * @str: input
  * Return: print
  */
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 void puts2(char *str)
 {
 	int i = 0;
