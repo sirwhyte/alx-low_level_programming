@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * set_string - moves the value of a point
+ *set_string - moves the value of a point
  * @s: input
  * @to: input
  * Return: Always 0
